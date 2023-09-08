@@ -1,9 +1,11 @@
-print ("Hello, World!")
+#Q1.3
+#print ("Hello, World!")
 
 import fonctions as f
 
-a = int(input("a = "))
-b = int(input("b = "))
-resultat = f.puissance(a, b)
-print(f"{a}^{b} = {resultat}")
+while True:
+	a = int(input("a = "))
+	b = int(input("b = "))
+	res = f.puissance(a, b)
+	print(f"{a}^{b} = {res}")
 
