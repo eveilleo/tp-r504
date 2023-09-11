@@ -4,8 +4,8 @@
 import fonctions as f
 
 while True:
-	a = int(input("a = "))
-	b = int(input("b = "))
-	res = f.puissance(a, b)
-	print(f"{a}^{b} = {res}")
+    a = int(input("Entrez la valeur de a = "))
+    b = int(input("Entrez la valeur de b = "))
+    res = f.puissance(a, b)
+    print(f"{a}^{b} = {res}")
 
