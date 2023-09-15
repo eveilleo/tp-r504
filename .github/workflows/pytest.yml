@@ -18,3 +18,5 @@ jobs:
         run: pytest TP1/test.py
       - run: echo "Nom branche:" ${{ github.ref }}
       - run: echo "Nom repo:" ${{ github.repository }}.
+      - run: python --version
+      - run: lsb_release -a
