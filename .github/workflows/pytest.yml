@@ -20,3 +20,5 @@ jobs:
       - run: echo "Nom repo:" ${{ github.repository }}.
       - run: python --version
       - run: lsb_release -a
+      - name: Version python
+        run: echo "version python:" $(python --version)
