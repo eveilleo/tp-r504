@@ -1,4 +1,4 @@
-if [ $# -ne 1 ]; then
+if [ "$1" = 1 ]; then
     echo "Veuillez fournir une première lettre en argument."
     exit 1
 fi
