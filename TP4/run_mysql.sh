@@ -5,3 +5,4 @@ docker run --rm -d \
 	--env MYSQL_ROOT_PASSWORD=foo \
 	--network net-tp4 \
 	mysql
+
