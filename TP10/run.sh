@@ -1,1 +1,1 @@
-java -classpath .;~/tp-r504/TP10/ Monfichier
+java -classpath ".:/home/user/Téléchargements/lib/*" Client2 $1
