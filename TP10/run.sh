@@ -1,0 +1,1 @@
+java -classpath .;~/tp-r504/TP10/ Monfichier
