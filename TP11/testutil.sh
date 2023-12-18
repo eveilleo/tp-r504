@@ -2,7 +2,7 @@
 
 while true; do
     PS3="Sélectionnez : "
-    options=("Vérifier l’existence d’un utilisateur" "Connaître l’UID d’un utilisateur" "Quitter")
+    options=("1 - Vérifier l’existence d’un utilisateur" "2 - Connaître l’UID d’un utilisateur" "q - Quitter")
     
     select choice in "${options[@]}"; do
         case $REPLY in
